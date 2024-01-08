@@ -10,7 +10,7 @@ public class DataBase
     private StaffMemberRepository staffRepo;
     
 
-    public Database(Connection con)
+    public DataBase(Connection con)
     {
         this.dRepo = new DoctorRepository(con);
         this.pRepo = new PatientRepository(con);
