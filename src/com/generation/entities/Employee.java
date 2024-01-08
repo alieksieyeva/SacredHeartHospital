@@ -6,6 +6,7 @@ public abstract class Employee extends Person {
     
     protected int monthSalary;
     protected int nMonths;
+    
     public Employee (){}
     
     public Employee(int id, String name, String surname, LocalDate dob, int monthSalary, int nMonths) {

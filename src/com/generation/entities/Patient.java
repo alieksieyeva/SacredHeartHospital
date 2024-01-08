@@ -16,6 +16,12 @@ public class Patient extends Person {
         super(id, name, surname, dob);
         this.insured = insured;
     }
+    public Patient(int id, String name, String surname, LocalDate dob,List<String> diagnosis, boolean insured) {
+        super(id, name, surname, dob);
+        this.insured = insured;
+        this.diagnoses = diagnosis;
+    }
+
 
     public List<String> getDiagnoses() {
         return diagnoses;
